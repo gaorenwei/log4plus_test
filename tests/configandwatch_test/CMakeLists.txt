@@ -1,0 +1,2 @@
+log4cplus_add_test(configandwatch_test main.cxx)
+target_link_libraries(configandwatch_test PRIVATE log4cplus::log4cplus)
